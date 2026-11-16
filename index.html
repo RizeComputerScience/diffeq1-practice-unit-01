@@ -2892,7 +2892,7 @@ var PROBLEMS = [
         ['It depends on `t`', 'The right side has no `t`, so the slope depends only on `y`.']] },
       { lead: 'What does the solution with `y(0) = 1` do as `t` increases?', ok: 0, pick: [
         ['It increases toward 3 and never reaches it', 'The slope at `y = 1` is 10, so it rises, and it flattens as it nears the equilibrium `y = 3`.'],
-        ['It increases without bound', 'The constant `y = 3` is a solution, and two solution curves never cross, so this one stays below 3.'],
+        ['It increases without bound', 'The constant `y = 3` is a solution, and solution curves of this equation never cross, so this one stays below 3.'],
         ['It decreases toward `−4`', 'At `y = 1` the slope is `12 − 1 − 1 = 10`, positive, so it rises.'],
         ['It reaches 3 and stays there', 'If it reached 3 it would touch the equilibrium solution, and solution curves never touch. It gets closer and closer to 3 instead.']] },
       { lead: 'What does the solution with `y(0) = −5` do as `t` increases?', ok: 0, pick: [
@@ -2939,7 +2939,7 @@ var PROBLEMS = [
       { lead: 'The solution through `(0, 2)` starts above the line `y = 2t + 1`. What does it do as `t` increases?', ok: 0, pick: [
         ['It rises more and more steeply, moving away from the line', 'At `(0, 2)` its slope is 4, steeper than the line’s 2. Above the line every slope is more than 2, so the gap keeps growing.'],
         ['It bends toward the line and approaches it', 'At `(0, 2)` its slope is `2(2) − 0 = 4`, steeper than the line’s 2, so the gap grows instead of shrinking.'],
-        ['It crosses the line `y = 2t + 1`', 'The line is itself a solution, and two solution curves never cross.'],
+        ['It crosses the line `y = 2t + 1`', 'The line is itself a solution, and solution curves of this equation never cross.'],
         ['It falls, because it starts above the line `y = 2t`', 'Above `y = 2t` every slope is positive, so it rises.']] }],
     graph: { x: [-1, 1], y: [-2, 5], ticks: { x: 0.5, y: 1 },
       segs: fieldSegs(function (t, y) { return 2 * y - 4 * t; }, [-1, 1], [-2, 5], 10, 9),
